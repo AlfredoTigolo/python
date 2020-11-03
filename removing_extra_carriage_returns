@@ -1,0 +1,2 @@
+  591  Nov 03 15:27:02 tr -d '^M' < portScanningThreaded.py > scanning.py
+  596  Nov 03 15:27:53 tr -d '\r' < portScanningThreaded.py > scanning.py
