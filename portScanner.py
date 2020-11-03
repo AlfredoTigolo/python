@@ -1,4 +1,5 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3
+#/usr/bin/python3.6
 
 #source https://www.tutorialspoint.com/python_penetration_testing/python_penetration_testing_network_scanner.htm
 
