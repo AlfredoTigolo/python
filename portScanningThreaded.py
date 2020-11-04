@@ -80,7 +80,21 @@ for worker in range (1, 500):
 q.join()
 print('Time taken:', time.time() - startTime)
 
-for ip in range ( st1, en1 ):
+for ip in range ( st1+1, en1 ): #skips the first ip
     addr = net2 + str(ip)
+    t_IP = socket.gethostbyname(addr)
     if ( scan ( addr )):
-        print ( addr, " is alive")
+        print ("===")        
+        print ( addr, " is alive ")        
+    
+    for y in range (100):
+            tt = threading.Thread ( target = threader )
+            tt.daemon = True
+            tt.start()
+    
+    for worker2 in range ( 1, 500):
+            q.put(worker2)
+   
+    q.join()
+    
+print('Time taken 2:', time.time() - startTime)
