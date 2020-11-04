@@ -1,5 +1,5 @@
-# log into freeshell.org
 #!/usr/pkg/bin/python
+# log into freeshell.org
 # source https://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples/
 import os
 users = os.popen("who | awk '{print $1}'")
