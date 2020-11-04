@@ -41,10 +41,7 @@ def scan(addr):
       if result == 0:
             return 1
       else :
-            return 0
-        #with print_lock:
-          #s.close()
-          #print (addr, 'is alive')        
+            return 0 
     except:
         pass
    
@@ -53,7 +50,6 @@ def threader():
     while True:
         worker = q.get()
         portscan(worker)
-        #scan(target)
         q.task_done()
 
 def threader2():
@@ -67,9 +63,6 @@ q = Queue()
 startTime = time.time()
 
 for x in range (100):
-    #t2 = threading.Thread( target = threader2 )
-    #t2.daemon = True
-    #t2.start()
     t = threading.Thread( target = threader )
     t.daemon = True
     t.start()    
