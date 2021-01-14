@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/local/bin/python3
 #source https://www.tutorialspoint.com/python_penetration_testing/python_penetration_testing_network_scanner.htm
 
 import socket

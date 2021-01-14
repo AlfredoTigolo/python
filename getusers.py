@@ -1,4 +1,4 @@
-#!/usr/pkg/bin/python
+#!/usr/local/bin/python3
 # log into freeshell.org
 # source https://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples/
 # remote off linux mint

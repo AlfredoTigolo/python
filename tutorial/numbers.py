@@ -3,7 +3,7 @@
 import random
 
 
-for x in range (10):
-    print ( random.randrange(1,10))
+for x in range (20):
+    print ( random.randrange(1,50))
 else:
     print("End Loop")

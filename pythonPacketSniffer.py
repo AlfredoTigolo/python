@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/local/bin/python3
 
 #only works on a live linux box and does not work under Windows Subsystem Linux
 #Source https://www.binarytides.com/python-packet-sniffer-code-linux/

@@ -2,3 +2,8 @@
   596  Nov 03 15:27:53 tr -d '\r' < portScanningThreaded.py > scanning.py
 
 # commit from centos7
+
+% sed -e "s/^M//" filename > newfilename
+cvtCR < macfile > unixfile
+
+# commit form macos
