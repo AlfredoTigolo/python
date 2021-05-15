@@ -284,6 +284,9 @@ import Contact as c
 can be used during Lab 14.1
 
 import a particular element of a Module
+modulename.componentname 21:34 seconds into lecture 14
+modulename.variablename
+
 The dir(), locals(), and globals() function [was not covered in video lecture]
 Python package using init.py
 Lab 14.5 covers the creating of init.py and packages
