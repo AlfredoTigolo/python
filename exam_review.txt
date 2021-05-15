@@ -286,6 +286,7 @@ can be used during Lab 14.1
 import a particular element of a Module
 modulename.componentname 21:34 seconds into lecture 14
 modulename.variablename
+nodulename.functionname
 
 The dir(), locals(), and globals() function [was not covered in video lecture]
 Python package using init.py
