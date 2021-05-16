@@ -2,7 +2,7 @@
 # must have access to lecture notes 1 to 14 to review questions
 
 def q1(): # example question
-    print ("Question 1")
+    print ("Question 1 ch 11 q 5")
     print ("Given the following string literal, which can break the string literal into a Python list of characters?")
     print ("s = \"cash\"")
     
