@@ -1,0 +1,296 @@
+lecture 1 Intro to Python
+installing python 3.9 https://python.org
+python idle editor
+microsoft visual studio code https://code.visualstudio.com/
+notepad++
+
+python prompt >>>
+Python values, expressions and statements
+example
+>>> x = 5
+>>> 'a'
+>>> ( 5 > 3)
+>>> print ( 5 + 3)
+
+keyboard input
+x = input ("Enter something")
+
+Python Scripting
+Python Modules
+Python Library
+Solving a display issue
+Comment in Python
+Getting online help
+
+lecture 2 Data types and variables
+lecture 3 Python Operators
+lecture 4 Conditional structure if else switch case
+lecture 5 Repetition Structure for loop while loop
+lecture 6 had us implement a horoscope program using if else statements
+lecture 7 had us use lists, tuples, and dictionaries
+lecture 8 talked about user-defined functions
+lecture 9 was about string processing
+lecture 10 talked about working with files and directories
+
+lecture 11 encryption project
+Quadratic Equation and Its Inverse
+The Encryption / Decryption Mechanism
+Encrypt a phrase or a sentence
+Decrypt the ciphertext
+The GUI version
+Crackability
+Optimization
+
+lecture 12 Execption Handling
+# try exception finally blocks
+'''
+try:
+    # code that could throw an exception
+except ExceptionType [as target]:
+    # code that executes when exception-declaration is thrown
+    # in the try block
+finally:
+    # code that will be executed
+'''
+
+''' Commonly used pre-defined exceptions '''
+# ArithmeticError
+# FloatingPointError
+
+# ZeroDivisionError
+# Raised when the second argument of a division or modulo operation is zero
+
+# ValueError
+# Raised when a built-in operation or function receives
+# an argument that has the right type but an inappropriate value,
+# and the situation is not described by a more precise exception
+# such as IndexError
+
+# IndexError
+# Raised when a sequence subscript is out of range
+
+# IOError
+# Raised when a I/O operation (such as a print statement, the built-in open() function
+
+# NameError
+# Name not found globally
+
+# TypeError
+# Raised when an operation or function is applied to an object of inappropriate type
+
+# OverflowError
+# Raised when the result of an arithmetic operation is too large to be represented
+
+''' Custom-made exceptions '''
+    
+# raise ValueError ("Answer must be either 'y' or 'n'")
+
+# class MyError ( Exception ): pass
+
+lecture 13 Python GUI Programming
+''' Widgets | Attributes and methods page 4 '''
+# Button
+# Canvas
+# Checkbutton
+# Entry
+# Frame
+# Label
+# Listbox
+# Menu
+# Menubutton
+# Message
+# Radiobutton
+# Scale
+# Scrollbar
+# Text
+# Toplevel
+
+''' Layout Management '''
+# pack() expand, fill, padx, pady, side
+# grid() column, row, columnspan, rowspan, padx, pady, sticky
+# place() anchor, bordermode, height, width, x, y
+
+''' Event and Event Handling '''
+# Button-1
+# Button-3
+# Button-2
+# B1-Motion
+# ButtonRelease-1
+# Double-Button-1
+# Enter
+# Leave
+# FocusIn
+# FocusOut
+# Motion
+# Return
+# Key
+# Up
+
+''' Event class attributes '''
+# widget
+# x
+# y
+# x_root
+# y_root
+# char
+# keysym
+# keycode
+# num
+# width
+# height
+# type
+
+''' label widget and attributes '''
+# relief
+# underline
+# wraplength
+# show
+# validate
+# validatecommand
+
+''' entry widget '''
+# insert ( index, text )
+# delete (index)
+# delete ( from, to)
+# icursor ( index )
+# get() => string
+# index(index) => index
+
+''' radio button '''
+# flash()
+# invoke()
+# select()
+
+'''  checkbutton '''
+# offvalue
+# onvalue
+# deselect()
+# flash()
+# invoke()
+# select()
+# toggle()
+
+''' listbox '''
+# label
+# length
+# orient
+# from_
+# to
+# tickinterval
+# resolution
+# showvalue
+
+# 5-7-2021
+# Tk is supported by PHP and Perl
+'''
+Other widgets are wxWidgets, Qt, Gtk+, Kivy
+'''
+
+# loading images
+
+# Basic concepts of GUI environment
+'''
+What is a desktop?
+What is a frame or form?
+Coordinate system on the desktop?
+Top left corner using x-axis and y-axis
+'''
+
+# review the degree example
+
+# review x-axis and y-axis place command
+
+# What are Tkinter Widgets?
+'''
+There are currently 15 types of widgets in Tkinter
+'''
+# examples are button, canvas, checkbutton
+# syntax of using widgets
+'''
+objectID = tk.wigetName(parent, options)
+button1 = Button(root, text="A", width=2)
+'''
+# Button, Entry, Label
+
+# Common attributes
+'''
+bg
+fg
+width
+height
+text
+'''
+
+# Less commonly used
+'''
+font
+cursor
+borderwidth
+activeforeground
+activebackground
+image
+'''
+
+# two special attributes
+'''
+anchor
+justify
+'''
+
+# To pack() or not pack()
+'''
+Geometry management tool
+pack() no control on placing the wigdet
+grid() table ideal
+place()
+'''
+
+#Common used GUI components
+'''
+Entry = textbox
+Button = clickable
+Label = caption
+CheckButton = multiple options
+RadioButton = single option
+ScrollBar
+Text
+'''
+
+# attributes of widgets are python dictionaries
+
+# mainloop() method necessary?
+
+# How do we set variable as an attribute of widgets?
+'''
+IntVar()
+DoubleVar()
+StringVar()
+BooleanBar()
+usage
+set() method
+get() method
+event handler
+'''
+
+lecture 14 Module and Package
+Elements of a Module
+Enhancing an existing Module
+
+Assigning an alias to a Module
+example
+import math as m
+In the labs 14, the modules you create you can create alias too
+example
+import Contact as c
+can be used during Lab 14.1
+
+import a particular element of a Module
+modulename.componentname 21:34 seconds into lecture 14
+modulename.variablename
+nodulename.functionname
+
+The dir(), locals(), and globals() function [was not covered in video lecture]
+Python package using init.py
+Lab 14.5 covers the creating of init.py and packages
+
+lecture 15 Python Programming Project - Barcode Generator
