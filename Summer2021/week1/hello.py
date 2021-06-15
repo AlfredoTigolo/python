@@ -1,12 +1,24 @@
-print ("hello")
-if (False):
+print ("hello world")
+# == # equal to
+# < # less than
+# > # great than
+# <= # less than or equal
+# >= # greater than or equal
+if (False): # condition
+    # execute true
     print ("great")
+elif (False):
+    # execute true
+    print("other true")
 else:
+    # execute false
     print("keep practicing")
 
 # I am typing this live
 for i in range (10):
     print ( i )
+
+# https://www.programiz.com/python-programming/online-compiler/
 
 # testing gui will only work in local python intrepretor
 from tkinter import *
