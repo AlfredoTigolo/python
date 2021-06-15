@@ -2,6 +2,7 @@ lecture 1 Intro to Python
 installing python 3.9 https://python.org
 python idle editor
 microsoft visual studio code https://code.visualstudio.com/
+notepad++
 
 python prompt >>>
 Python values, expressions and statements
