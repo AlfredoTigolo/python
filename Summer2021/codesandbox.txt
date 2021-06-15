@@ -1,1 +1,14 @@
 readme file initial creation
+
+Step 1
+Create a Github Account
+
+Step 2
+Creating a codesandbox.io and link with github Account
+
+Step 3
+Share my (tutor) live sandbox code link
+
+Step 4
+Fork and Branch student's own codesandbox link with live
+
