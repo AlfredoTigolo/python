@@ -35,6 +35,10 @@ lecture 5 Repetition Structure for loop while loop
 # page 8, 9, 10 lecutre 6 tradition and adjusted horoscope
 # page 10 lecture 6 convert to GUI applications
 
+# Need to know to build app
+# What is horoscope?
 # What is system design model?
+# Why is system design difficult?
+# Ready for learning journey?
 
 
