@@ -14,6 +14,9 @@ vagrant halt #stopping VM
 '''
 Just install "git for windows" to obtain the command line option of git
 homebrew is optional in windows
+install powershell 7.2
+https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2
+
 install vagrant
 intall virtualbox
 Vagrant box add Laravel/homestead
